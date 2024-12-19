@@ -1,0 +1,14 @@
+.gf-layout {
+    width: 100%;
+
+    &-content {
+        width: 100%;
+        max-width: 1200px;
+        margin: auto;
+    }
+
+    & :where(.css-dev-only-do-not-override-1kf000u).ant-table-wrapper .ant-table,
+    & *:where(.css-dev-only-do-not-override-1kf000u).ant-table-wrapper .ant-table-container {
+        border-radius: 0px;
+    }
+}
